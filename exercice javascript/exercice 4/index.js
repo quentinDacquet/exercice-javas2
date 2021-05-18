@@ -1,14 +1,11 @@
-for(i = 2; i <= 100; i++) {
-	
-	var j = 1;
-	var racine = Math.floor(Math.sqrt(i)); 
+for(a=2; a<=100; a++) {
+	var x = 1;
+	var racine = Math.floor(Math.sqrt(a)); 
 
 	do {
-	j++;
-	} while(j <= racine && i%j != 0);
-
-	if(j > racine) {
-
-	document.write(i +"<br>");
+	x++;
+	} while(x <= racine && a%x != 0);
+	if(x > racine) {
+	document.write(a +"<br>");
 	}
 }
