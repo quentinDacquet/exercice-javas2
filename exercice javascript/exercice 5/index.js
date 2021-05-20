@@ -1,4 +1,3 @@
-document.write("<table border=5>");
 document.write("<tr><td>","</td>");
 for(var i=1;i<10;i++)
 document.write("<td>",i,"</td>");
